@@ -21,7 +21,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
   // };
 
   return (
-    <main>
+    <>
       {items.length ? (
         <ItemList
           items={items}
@@ -38,7 +38,7 @@ const Content = ({ items, handleCheck, handleDelete }) => {
       <button onClick={handleNameChange}>Change Name</button>
       <button onClick={handleClick}>Click it</button>
       <button onClick={handleClick2}>Click it</button> */}
-    </main>
+    </>
   );
 };
 
